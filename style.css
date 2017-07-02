@@ -1,7 +1,7 @@
 body {
-  background-color: teal;
+  background-color: black;
   text-align: center;
-  font-family: 'Lobster', Helvetica, sans-serif; 
+  font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
 }
 
@@ -12,11 +12,11 @@ header {
 }
 
 #form-outer {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(200, 200, 200);
   margin: 0 auto;
-  border-radius: 400px;
-  width: 85%;
-  max-width: 1000px;
+  border-radius: 40px;
+  width: 55%;
+  max-width: 100px;
   padding: 10px;
   padding-top: 10px;
 }
@@ -24,29 +24,19 @@ header {
 
 .demographics {
   display: inline-block;
-  text-align: right;
+  text-align:left;
   width: 40%;
-  padding: 5px;
+  padding: 20px;
   vertical-align: top;
   margin-top: 10px;
-  color: red;
-}
-
-
-.labels {
-  display: inline-block;
-  text-align: left;
-  width: 40%;
-  padding: 5px;
-  vertical-align: top;
-  margin-top: 10px;
-  color: blue;
+  
 }
 
 .rightTab {
   display: inline-block;
   text-align: left;
-  width: 50%;
+  width: 48%;
   vertical-align: middle;
 }
+
 
