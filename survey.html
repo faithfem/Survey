@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+
+    
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+
+</head>
+<body>
+<form>
+<header>
+    <h1>Survey Form</h1></header>
+    
+
+<div id="form-outer">
+<div class="demographics"> 
+First name: 
+<input type="text" name="first name" placeholder="First name" required><br>
+Last name:
+<input type="text" name="last name" placeholder="Last name" required><br>
+Email address:
+<input type="email" name="email" required><br> 
+Age: 
+<input type="number" name="age" min="1" max="100" required><br>
+
+<div>
+Select which option best describes you
+<select> 
+    <option value="Student">Student</option>
+    <option value="Full-time job">Full-time job</option>
+    <option value="Part-time job">Part-time job</option>
+    <option value="Unemployed">Unemployed</option>
+    <option value="Prefer not to say">Prefer not to say</option></select></div></div>
+    
+    
+<div> Please rate Rep. James Langevin below</div>
+
+
+<div class="questions">
+    <div><p> Survey Questions</p>
+<ol><li><p> Do you know where Rep. James Langevin stands on the issue of Universal Health Care?
+<input type="radio" name="Agree" value="Yes" checked> Yes
+<input type="radio" name="Agree" value="No"> No<br></p></li>
+  
+
+<li><p> Do you know Rep. James Langevin's stance on Medicare and Medicaid?
+<input type="radio" name="Stance" value="yes" checked> Yes
+<input type="radio" name="Stance" value="No"> No <br></p></li>
+
+<li><p> How likely are you to vote for Rep. James Langevin?
+<input type="radio" name="Vote" value="Likely" checked> Likely
+<input type="radio" name="Vote" value="Not Likely"> Not Likely <br></p></li>
+
+
+<li><p> What issues would you like to hear more on from Rep. Langevin?</p>
+
+<input type="checkbox" name="Immigration" value="Immigration"> Immigration<br>
+<input type="checkbox" name="Abortion" value="Abortion"> Abortion<br>
+<input type="checkbox" name="Environment" value="Environment"> Environment<br>
+<input type="checkbox" name="Gun Control" value="Gun Control"> Gun Control<br></li></ol></div></div></div>
+
+
+
+<br>
+<input type ="submit" value="Submit">
+
+
+</div>
+</form>
+</body>
+</html>
+
