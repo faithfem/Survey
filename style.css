@@ -1,42 +1,40 @@
 body {
-  background-color: black;
-  text-align: center;
+  background-color: cyan;
+  text-align: left;
   font-family: 'Raleway', Helvetica, sans-serif;
-  min-width: 320px;
+  
 }
 
 header {
   font-size: 1em;
   font-weight: bold;
   margin: 20px;
+  text-align: center;
 }
 
 #form-outer {
   background-color: rgb(200, 200, 200);
-  margin: 0 auto;
+  margin: 50 auto;
   border-radius: 40px;
-  width: 55%;
-  max-width: 100px;
+  width: 100%;
+  max-width: 1000px;
   padding: 10px;
   padding-top: 10px;
+  
+  
 }
 
 
 .demographics {
   display: inline-block;
   text-align:left;
-  width: 40%;
+  width: 100%;
   padding: 20px;
   vertical-align: top;
   margin-top: 10px;
   
 }
 
-.rightTab {
-  display: inline-block;
-  text-align: left;
-  width: 48%;
-  vertical-align: middle;
-}
+
 
 
