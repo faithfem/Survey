@@ -1,15 +1,27 @@
 body {
   background-color: cyan;
   text-align: left;
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   
 }
 
 header {
   font-size: 1em;
   font-weight: bold;
-  margin: 20px;
+  margin: 5px;
   text-align: center;
+  font-family: 'Lobster', Helvetica, sans-serif;
+}
+
+
+.demographics {
+  display: inline-block;
+  text-align:left;
+  width: 100%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+  
 }
 
 #form-outer {
@@ -25,16 +37,8 @@ header {
 }
 
 
-.demographics {
-  display: inline-block;
-  text-align:left;
-  width: 100%;
-  padding: 20px;
-  vertical-align: top;
-  margin-top: 10px;
-  
+.button{
+  text-align: center;
 }
-
-
 
 
